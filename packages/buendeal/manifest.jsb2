@@ -1,0 +1,22 @@
+{
+	"projectName": "buendeal",
+	"licenseText": "proprietary",
+	"pkgs": [{
+		"name": "buendeal CSS",
+		"file": "buendeal.css",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.css",
+			"path": "themes/admin/jqadm/"
+		}]
+	}, {
+		"name": "buendeal JS",
+		"file": "buendeal.js",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.js",
+			"path": "themes/admin/jqadm/"
+		}]
+	}],
+	"resources" : []
+}
