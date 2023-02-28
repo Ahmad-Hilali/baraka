@@ -16,3 +16,18 @@ mix.js('resources/js/app.js', 'public/js').postCss('resources/css/app.css', 'pub
     require('tailwindcss'),
     require('autoprefixer'),
 ]);
+
+mix.browserSync({
+    injectChanges: true,
+    proxy: 'example.com',
+    hostname: 'example.com',
+    port: 3000,
+    ignored: /node_modules/,
+    files: [
+        'config/shop.php',
+        'public/**/*.css',
+        'resources/**/*',
+        'lang/*.json',
+        'packages/**/*.{php,css,js}'
+    ]
+});

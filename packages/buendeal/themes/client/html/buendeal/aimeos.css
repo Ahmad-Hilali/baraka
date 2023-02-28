@@ -46,9 +46,9 @@
 :root {
 	--ai-bg: #FFF;
 	--ai-bg-alt: #F6F6F6;
-	--ai-primary: #282828;
-	--ai-primary-alt: #282828;
-	--ai-secondary: #555;
+	--ai-primary: #d2ac67;
+	--ai-primary-alt: #d2ac67;
+	--ai-secondary: #c71d22;
 	--ai-secondary-alt: #555;
 	--ai-tertiary: #CCC;
 	--ai-tertiary-alt: #F6F6F6;
@@ -612,7 +612,8 @@ body > .content, body .main-section {
 .navbar {
 	padding: 0 1rem;
 	color: var(--ai-primary);
-	background-color: transparent;
+	/*background-color: transparent;*/
+	background-color: #c59053de;
 	position: fixed;
 	top: 0;
 	right: 0;
